@@ -1,0 +1,25 @@
+@import './config/_colors';
+@import './config/_breakpoints';
+@import './config/_spacing';
+@import './config/_border';
+@import './config/_shadows';
+@import './config/_fonts';
+
+@mixin empty-content($min-height: 50px){
+  animation: 1.5s shine linear infinite;
+  $opacity: 30%;
+  background: linear-gradient(110deg,
+    rgb(236 245 236 / #{$opacity}) 8%,
+    rgb(245 236 245 / #{$opacity + 5}) 18%,
+    rgb(236 245 236 / #{$opacity}) 33%
+  );
+  transition: background ease;
+  border-radius: 5px;
+  background-size: 200% 100%;
+  min-height: $min-height;
+}
+
+@keyframes shine {
+	0% {background-position: 100%}
+	100% {background-position: -100%}
+}

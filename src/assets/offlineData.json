@@ -1,0 +1,48 @@
+{
+  "GET /api/logout": {
+    "status": 200
+  },
+
+  "POST /api/login": {
+    "status": 200,
+    "error": false,
+    "data": {
+      "user": {
+        "id": 7,
+        "email": "admin@admin.com",
+        "firstName": "Admin",
+        "lastName": "Istrator",
+        "extra": {
+          "category": {
+            "code": "ES-06-047",
+            "name": "JEFE/A DE PROYECTO"
+          },
+          "department": {
+            "code": "0135",
+            "name": "IT"
+          },
+          "center": {
+            "code": "195",
+            "name": "Edificio Sede Corporativa"
+          },
+          "country": "ES"
+        },
+        "dataAvatar": "{\"hair\":\"hair01\", \"colorHair1\":\"#9e1e1e\", \"colorHair2\":\"#106640\", \"eye\":\"eye07\", \"colorEye\":\"#59eaab\", \"colorFace\":\"#59eaab\", \"face\":\"face01\",\"colorEyebrows\":\"#190909\",\"eyebrows\":\"eyebrows07\",\"mouth\":\"mouth010\",\"nose\":\"nose09\",\"tshirt\":\"tshirt01\", \"colorTshirt\":\"#b2427a\", \"complements\":\"complements02\", \"colorComplement\":\"#451493\", \"longHair\":\"longhair02\"}",
+        "avatar": "https://st.depositphotos.com/1779253/5140/v/600/depositphotos_51405259-stock-illustration-male-avatar-profile-picture-use.jpg",
+        "locale": "es",
+        "points": 350,
+        "policies": false
+      },
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJpYXQiOjE2MTQ4NTA3MDAsImV4cCI6MTYxNDg1NDMwMCwicm9sZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfVVNFUiJdLCJ1c2VybmFtZSI6ImFkbWluQGFkbWluLmNvbSJ9.Etlkxw4cdsSyk6hRKhm-4qAriPP-I1uCcZm9CxOkK3961-bPJI0MxD75rKdUgZ_ZDDexpEstWAh6mTTUybV8FxWrgG8PuBWCxit3JcABu_j2pD6swx-WQPgbnwfiLETEVxnmyn9EdnspCodUGl5hlCl9pRSWH9s2yF6WGgG3SowdRT3bKUc_Vk_pYO11Cy5DjMdKikIy-4aOIj4c2tfAznIoEAWF6qpYUolU2oAH0BWVkqK_M2-W8MOP7-zKyp500UEeGCrrRVxjI-K_GHdLkXGrIfvt9nKqf1X9cCVJOF1-u99D3-gKrQqFFeuwnaGz0f0G1sjcbQV1_l22sX6kiGk_iewVhpYdqh_HnQr1qWebvX3aU84VQOjjBVg0ZOrM1waTxFTWnxnkdrFFLXym3ogKacIFWuCJKb724ccyEN8cFLpeX_AEwOuCSqs3HP8Uui0cKLRfWC2byQtyziMot8Q7Rh-mJx8E1DOrhj7RG_XppBf6agPvH82jlrkt8RdLOFcSyD5nJymVfdqLedTD7tDO0efLdz0a-8FZfgGy781r8SoeYuSXi14ag8TVXV8UGc2BMqyP_3VRXqzdWZQLUA_e4gluuwLfN0B390OWnft8Rk56YhlvrCs72nhXXmzGscApUWJ8nAiaBMVkJ5v1lp-iKtz33E2hL_uTuh3gnbc",
+      "customization": {
+        "colorPrimary": "#d818be",
+        "logo": "https://gestionet.net/wp-content/uploads/2021/05/logo.png",
+        "url": "http://localhost",
+        "domain": "localhost"
+      }
+    }
+  }
+
+
+
+}
